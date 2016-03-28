@@ -257,31 +257,30 @@ function create_config( )
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
-Create a group
+!crgr [Name]
+creategroup
 گروه جدیدی بسازید
 
-!createrealm [Name]
-Create a realm
+!crmother [Name]
 گروه مادر جدیدی بسازید
 
-!setname [Name]
+!sena [Name]
 Set realm name
 اسم گروه مادر را تغییر بدهید
 
-!setabout [GroupID] [Text]
+!sebo [GroupID] [Text]
 Set a group's about text
 در مورد  آن گروه توضیحاتی را بنویسید (ای دی گروه را بدهید )
 
-!setrules [GroupID] [Text]
+!setr [GroupID] [Text]
 Set a group's rules
 در مورد آن گروه قوانینی تعیین کنید ( ای دی گروه را بدهید )
 
-!lock [GroupID] [setting]
+!logrse
 Lock a group's setting
 تنظیکات گروهی را قفل بکنید
 
-!unlock [GroupID] [setting]
+!ungrse
 Unock a group's setting
 تنظیمات گروهی را از قفل در بیاورید 
 
@@ -297,7 +296,7 @@ Get a file of members in group/realm
 Get group type
 در مورد نقش گروه بگیرید
 
-!kill chat [GroupID]
+!kichgr
 Kick all memebers and delete group 
 ️تمامی اعضای گروه را حذف میکند 
 
@@ -305,7 +304,7 @@ Kick all memebers and delete group
 Kick all members and delete realm
 تمامی اعضای گروه مارد را حذف میکند
 
-!addadmin [id|username]
+!admi(...)
 Promote an admin by id OR username *Sudo only
 ادمینی را اضافه بکنید
 
